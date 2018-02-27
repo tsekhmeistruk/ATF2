@@ -17,7 +17,8 @@ namespace PageObjects
         private static readonly Dictionary<Type, BasePageConstructor>
                 pageConstructors = new Dictionary<Type, BasePageConstructor>
                 {
-                    { typeof(NUnitHomePage), (webDriverWrapper) => new NUnitHomePage(webDriverWrapper) }
+                    { typeof(NUnitHomePage), (webDriverWrapper) => new NUnitHomePage(webDriverWrapper) },
+                    { typeof(ASPNetMainPage), (webDriverWrapper)=> new ASPNetMainPage(webDriverWrapper)}
                 };
 
         public T GetPage<T>() where T : BasePage
