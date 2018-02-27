@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASPNetMainPageTests.cs" />
     <Compile Include="BaseTest.cs" />
     <Compile Include="NavigationMenuTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

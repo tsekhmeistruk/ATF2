@@ -47,7 +47,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASPNetMainPage.cs" />
     <Compile Include="BasePage.cs" />
+    <Compile Include="LearnPage.cs" />
     <Compile Include="NUnitHomePage.cs" />
     <Compile Include="PageObjectFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

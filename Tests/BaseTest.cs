@@ -11,7 +11,6 @@ namespace Tests
         private WebDriverWrapperFactory _driverFactory;
         protected PageObjectFactory PageObjectFactory;
 
-
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
